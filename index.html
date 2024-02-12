@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="jsscript.js"></script>
+    <script src="api.js"></script>
+    <title>خانه</title>
+</head>
+<body>
+  <div class="header">
+    <div class="left-header">تحویل رایگان سفارشات بالای 100 هزارتومان</div>
+      <div class="center-header">یلدای شگفت انگیز 28 تا 30 آذر</div>
+    <div class="right-header">پشتیبانی آنلاین ۲۴/۷</div>    
+  </div>
+
+  <div class="top-bar">
+      <div class="search">
+        <input class="button" type="button"  value="جستجو" onclick="Search()">
+        <input class="input" type="text" placeholder="نام محصول یا دسته بندی..." required="required">        
+      </div>
+      
+      <div class="logo"><img src="images/Logo.png" alt="mainlogo"></div>
+
+      <div class="cart">
+        <div class="registration">
+          <div class="register"><a href="">ثبت نام</a></div>
+          /
+          <div class="login"><a href="">ورود</a></div>
+        </div>
+        
+        <div class="cart-logo"><img src="images/icons/basket-cart-icon-27.png" alt="cart" width="30px"></div>    
+      </div>
+  </div>  
+
+  <!-- Navigation bar -->
+  
+    <div>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="home">خانه</a></li>|
+          <li><a href="index.html">بلاگ</a></li>|
+          <li><a href="index.html">فروشگاه</a></li>|
+          <li><a href="index.html">گل خانه ها</a></li>|
+          <li><a href="index.html">ارتباط با ما</a></li>|
+          <li><a href="index.html">درباره ما</a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+   <!-- Slide Show -->
+<div class="slideshow-container">
+
+    <div class="slide">
+      <img src="images/best-present.png" style="width:100%">
+    </div>
+  
+    <div class="slide">
+      <img src="images/Off-festival.png" style="width:100%">
+    </div>
+  
+    <div class="slide">
+      <img src="images/yalda-off.png" style="width:100%">
+    </div>
+  
+    <a class="prev" onclick="prevSlide()">&#10094;</a>
+    <a class="next" onclick="nextSlide()">&#10095;</a>
+  </div>
+
+
+<br>
+<br>
+<br>
+<br>
+
+  <!-- Middle Cards -->
+  <div id="banner">
+    <div id="image1">
+      <div class="text-image-top">طراحی جدید</div>
+        <div class="text-image-bottom">ویژه ولنتاین</div>
+      <div class="text-image-shop"><a href="">فروشگاه</a></div>
+    </div>
+    <div id="image2">
+      <div class="text-image-top">طراحی جدید</div>
+        <div class="text-image-bottom">دسته گل عروس</div>
+      <div class="text-image-shop"><a href="">فروشگاه</a></div>
+    </div>
+    <div id="image3">
+        <div class="text-image-top">ویژه</div>
+          <div class="text-image-bottom">رایحه جدید</div>
+        <div class="text-image-shop"><a href="">فروشگاه</a></div>
+      </div>
+  </div>
+
+
+
+
+
+  <!-- Cards -->
+  <div class="card-text">
+    <div class="C-text">جدید  ترین  گل  ها</div>
+    <div class="C-line"></div>
+  </div>
+  <!-- A1 -->
+  <div class="cards">
+    <div class="bodycards">    
+      <div id="A1">
+        <div class="img-container">
+          <img src="" alt="Card A1">        
+        </div>      
+          <h2></h2>
+            <div class="prices">
+              <p id="final-price">۳۶,۰۰۰ تومان</p>
+              <p id="real-price">۶۰,۰۰۰ تومان</p>
+            </div>
+          <a href="#" class="button">افزودن به سبد خرید</a>
+        <div class="off">
+          <p>40 درصد</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- A2 -->
+    <div class="bodycards">
+      <div id="A2">      
+        <div class="img-container">
+          <img src="" alt="Card A2">
+        </div>      
+          <h2></h2>
+            <p>۱۶۰,۰۰۰ تومان</p>
+          <a href="#" class="button">افزودن به سبد خرید</a>
+      </div>
+    </div>
+    <!-- A3 -->
+    <div class="bodycards">
+      <div id="A3">      
+        <div class="img-container">
+          <img src="" alt="Card A3">
+        </div>      
+          <h2></h2>
+            <p>۵۰,۰۰۰ تومان</p>
+          <a href="#" class="button">افزودن به سبد خرید</a>
+      </div>
+    </div>
+
+    <!-- A4 -->
+    <div class="bodycards">
+      <div id="A4">
+        <div class="img-container">
+          <img src="" alt="Card A4">
+        </div>      
+          <h2></h2>
+            <p>۱۳۰,۰۰۰ تومان</p>
+          <a href="#" class="button">افزودن به سبد خرید</a>
+      </div>
+    </div>
+
+    <!-- B1 -->
+    <div class="bodycards">
+      <div id="B1">      
+        <div class="img-container">
+          <img src="" alt="Card B1">
+        </div>      
+          <h2></h2>
+          <p>۱۱۰,۰۰۰ تومان</p>
+            <a href="#" class="button">افزودن به سبد خرید</a>
+      </div>
+    </div>
+
+    <!-- B2 -->
+    <div class="bodycards">
+      <div id="B2">  
+        <div class="img-container">
+          <img src="" alt="Card B2">
+        </div>      
+          <h2></h2>
+            <p>۸۰,۰۰۰ تومان</p>
+          <a href="#" class="button">افزودن به سبد خرید</a>
+      </div>
+    </div>
+
+    <!-- B3 -->
+    <div class="bodycards">
+      <div id="B3">
+        <div class="img-container">
+          <img src="" alt="Card B3">
+        </div>      
+          <h2></h2>
+            <p>95,000 تومان</p>
+          <a href="#" class="button">افزودن به سبد خرید</a>
+      </div>
+    </div>
+    <!-- B4 -->
+    <div class="bodycards">
+      <div id="B4">
+        <div class="img-container">
+          <img src="" alt="Card B4">
+        </div>      
+          <h2></h2>
+            <p>46,000 تومان</p>
+          <a href="#" class="button">افزودن به سبد خرید</a>
+      </div>
+    </div>
+
+    <!-- C1 -->
+    <div class="bodycards"> 
+      <div id="C1">
+        <div class="img-container">
+          <img src="" alt="Card C1">
+        </div>      
+          <h2></h2>
+            <p>50,000 تومان</p>
+          <a href="#" class="button">افزودن به سبد خرید</a>
+      </div>
+    </div>
+
+      <!-- C2 -->
+    <div class="bodycards">
+      <div id="C2">
+        <div class="img-container">
+          <img src="" alt="Card C2">
+        </div>      
+          <h2></h2>
+            <div class="prices">
+              <p id="final-price">40,000 تومان</p>
+              <p id="real-price">70,000 تومان</p>
+            </div>
+          <a href="#" class="button">افزودن به سبد خرید</a>
+
+          <div class="blue-tag">ویژه پاییز</div>
+          <div class="red-tag">30,000 تومان</div>
+      </div>
+    </div>
+
+      <!-- C3 -->
+    <div class="bodycards">
+      <div id="C3">
+        <div class="img-container">
+          <img src="" alt="Card C3">
+        </div>      
+          <h2></h2>
+            <p>115,000 تومان</p>
+          <a href="#" class="button">افزودن به سبد خرید</a>
+      </div>
+    </div>
+
+      <!-- C4 -->
+    <div class="bodycards">
+      <div id="C4">
+        <div class="img-container">
+          <img src="" alt="Card C4">
+        </div>      
+          <h2></h2>
+            <p>140,000تومان</p>
+          <a href="#" class="button">افزودن به سبد خرید</a>
+        </div>
+      </div>
+
+  </div>
+
+
+  
+
+    <!-- Keeping -->
+    <div class="keeping">
+      <div class="keep-left">
+        <img class="keep-pic" src="images/keeping/Flower.jpg" alt="main-flowe">
+        <img class="keep-dot" src="images/keeping/dots.png" alt="dot-flower">
+      </div>
+
+      <div class="keep-right">
+          <h1 class="keep-title">آموزش</h1>
+          <h1 class="keep-under-title">نگهداری از گل</h1>
+        <div class="keep-line"></div>
+          <p class="keep-lorem">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.</p>
+            <a href="">ادامه مطلب</a>
+      </div>
+    </div>
+
+
+
+
+    <!-- Guaranted -->
+    <div class="Guaranted">
+      <div class="Guaranted-left">
+        <h1 class="Guaranted-title">ضمانت</h1>
+        <h1 class="Guaranted-under-title">کیفیت ارسال</h1>
+      <div class="Guaranted-line"></div>
+        <p class="Guaranted-lorem">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.</p>
+          <a href="">ادامه مطلب</a>
+      </div>
+
+
+      <div class="Guaranted-right">
+        <img class="Guaranted-pic" src="images/keeping/bucket.jpg" alt="main-flower">
+        <img class="Guaranted-dot" src="images/keeping/dots.png" alt="dot-flower">
+      </div>
+
+    </div>
+
+
+    <!-- fiexd -->
+    <div class="parallax">
+      <div class="content">
+        <h1>ما متناسب با سلیقه ی شما</h1>
+        <h2>طراحی و گل آرایی میکنیم</h2>
+        <p class="blue-content">:جهت سفارش دسته گل ، تماس بگیرید<br>021-12345678</p>
+      </div>
+    </div>
+    
+
+    <!-- footer -->
+    <div class="footer"> 
+      <div>
+        <ul>
+          دسترسی
+          <li><a href="">فروشگاه</a></li>
+          <li><a href="">بلاگ</a></li>
+          <li><a href="">گل خانه ها</a></li>
+          <li><a href="">تماس با ما</a></li>
+          <li><a href="">روش های تحویل</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <ul>
+          دسته بندی ها
+          <li><a href="">دسته گل</a></li>
+          <li><a href="">گلدان</a></li>
+          <li><a href="">سبد گل</a></li>
+          <li><a href="">گل مصنوعی</a></li>
+        </ul>
+      </div>
+        
+      <div class="social">
+        <h4>ما را دنبال کنید</h4>
+        <h5>شبکه های اجتماعی</h5>
+      </div>
+    </div>
+</body>
+</html>

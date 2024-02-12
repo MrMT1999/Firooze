@@ -1,0 +1,78 @@
+{
+    "cards":
+    [
+        {
+            "id":"A1",
+            "name":"ویژه ولنتاین",
+            "picture":"images\\shop-cards\\f696b574440f4404ad03fe01ddd7eb06.w_748,h_90,r_k.jpg"
+
+        },
+        {
+            "id":"A2",
+            "name":"گلدان 5",
+            "picture":"images\\shop-cards\\cbb1a821af9c43f389dfc61d21f90527.w_748,h_90,r_k.jpg"
+
+        },
+        {
+            "id":"A3",
+            "name":"دسته گل 2",
+            "picture":"images\\shop-cards\\7e021522bc6848309d30e4790b264c1e.w_748,h_90,r_k.jpg"
+
+        },
+        {
+            "id":"A4",
+            "name":"سبد گل 2",
+            "picture":"images\\shop-cards\\863f0a2a42e540d79cb37a8053f03cea.w_748,h_90,r_k.jpg"
+
+        },
+        {
+            "id":"B1",
+            "name":"گلدان شیشه ای",
+            "picture":"images\\shop-cards\\9f243b993beb4a378b7c4e5f2a8e151b.w_748,h_90,r_k.jpg"
+
+        },
+        {
+            "id":"B2",
+            "name":"سبد گل",
+            "picture":"images\\shop-cards\\863f0a2a42e540d79cb37a8053f03cea.w_748,h_90,r_k.jpg"
+
+        },
+        {
+            "id":"B3",
+            "name":"گلدان 4",
+            "picture":"images\\shop-cards\\06be430ccb974f9e9667f47d8c38163d.w_748,h_90,r_k.jpg"
+
+        },
+        {
+            "id":"B4",
+            "name":"دسته گل 1",
+            "picture":"images\\shop-cards\\9e9d7ce8a5f24436b25e7c41fe3ba6e0.w_748,h_90,r_k.jpg"
+
+        },
+        {
+            "id":"C1",
+            "name":"سبد پاییز",
+            "picture":"images\\shop-cards\\0bcdf85c75b1434680b955d8de998592.w_748,h_90,r_k.jpg"
+
+        },
+        {
+            "id":"C2",
+            "name":"هدیه ای عالی",
+            "picture":"images\\shop-cards\\c77d28b994fb42b0b72dd54746cf391f.w_748,h_90,r_k.jpg"
+
+        },
+        {
+            "id":"C3",
+            "name":"گلدان شیشه ای",
+            "picture":"images\\shop-cards\\d8504abee6af4fcc993b4497b5d67c5c.w_748,h_90,r_k.jpg"
+
+        },
+        {
+            "id":"C4",
+            "name":"گلدان شیشه ای 2",
+            "picture":"images\\shop-cards\\9aa163954a764a8aaea074aae77bf405.w_748,h_90,r_k.jpg"
+
+        }
+        
+    ]
+}
